@@ -1,0 +1,1385 @@
+.collapsible-header > .large {
+    color: #fff;
+    display: flex;
+    margin-left: auto;
+    transition-duration: 0.8s;
+}
+
+.change {
+    transform: rotateX(180deg);
+}
+
+.active {
+    transform: none;
+}
+
+* {
+    scroll-margin-top: 6em;
+}
+
+.jumptarget::before {
+    content:"";
+    display:block;
+    height: 50px;
+    margin: -50px 0 0;
+}
+
+.about-text {
+    color: #f2f2f2;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.apply-demo, a.apply-demo2 {
+    background: linear-gradient(90deg, rgb(0, 104, 255) 0, #2affff 100%);
+    border: none;
+    border-radius: 50px;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-family: 'Spartan Semi-Bold'!important;
+    font-size: 12px;
+    line-height: 0.8;
+    padding: 10px 15px;
+    transition: linear .2s;
+    letter-spacing: 1px;
+}
+
+.full-res {
+    top: -14px;
+}
+
+.apply-demo2 {
+    color: #fff!important;
+    display: inline-block!important;
+    height: 50px;
+    margin: 10px 0;
+    width: 80%;
+}
+
+.apply-demo:hover {
+    transform: scale(1.2);
+}
+
+.apply-demo2:hover {
+    transform: scale(1.1);
+}
+
+.benefits-ulist .benefits-li {
+    list-style-type: disc!important;
+}
+
+.brand-logo img {
+    vertical-align: middle;
+}
+
+.btn-send-email {
+    background: linear-gradient(90deg, rgb(0, 104, 255) 0, #2affff 100%);
+    border: none;
+    border-radius: 50px;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-family: 'SF Pro Display Semi-Bold';
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 0.8;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    padding: 10px 25px;
+}
+
+.card {
+    border: 2px solid transparent;
+}
+
+.card-content > p {
+    color: #f2f2f2;
+    text-align: left;
+    font-size: 14px;
+}
+
+.card:hover {
+    border: 2px solid #0068FF;
+    border-radius: 10px;
+    transition: .3s;
+}
+
+.carousel {
+    margin-bottom: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    max-height: 559px;
+    max-width: 945px;
+}
+
+.carousel .indicators {
+    bottom: -28px;
+}
+
+.collapsible {
+    box-shadow: none;
+}
+
+.collapsible-body {
+    border: 1px solid #ddd;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top: none;
+}
+
+.collapsible-header {
+    background: transparent;
+    border: 1px solid #ddd;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    border-radius: 10px;
+    color: #fff;
+    display: flex;
+    height: 80px;
+    margin-top: 10px;
+    place-items: center;
+}
+
+.collapsible-header > .small {
+    color: #78bbe6;
+    font-family: 'SF Pro Display Regular';
+    font-size: 9px;
+    font-weight: 100;
+}
+
+.collapsible-header > .title {
+    font-family: 'SF Pro Display';
+}
+
+.collapsible-header:focus, .subjects-btn:hover {
+    background-color: transparent!important;
+}
+
+.subjects-btn > a {
+    background-color: transparent!important;
+    color: #fff;
+    font-weight: 700;
+    padding: 8px;
+    width: 80%;
+    font-family: 'Spartan Semi-Bold';
+}
+
+.contact-section {
+    margin-top: 50px;
+}
+
+.container-cards .card.horizontal.hvr-wobble-vertical .card-image img {
+    width: 45px;
+    max-width: initial;
+}
+
+.container-icons-rrss a {
+    cursor: pointer;
+    padding: 5px;
+    vertical-align: middle;
+}
+
+.container-icons-rrss a img {
+    vertical-align: bottom;
+}
+
+.container-inputs {
+    color: #fff;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 30px auto 20px;
+    width: 60%;
+}
+
+.container-inputs input.form-control, textarea.materialize-textarea {
+    color: #fff;
+}
+
+.container-radio-buttons .radio-buttons, .list-inline .lt000 {
+    list-style-type: none!important;
+}
+
+.container-sessions {
+    display: inline-flex;
+    margin: 50px auto 100px;
+}
+
+.container-submit {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    width: 60%;
+}
+
+.cubo-discover-absolute {
+    height: auto;
+    left: 10%;
+    max-width: 2em;
+    position: absolute!important;
+    width: 100%;
+}
+
+.cubo-logo-transparente {
+    max-height: 4vw;
+}
+
+.d-none {
+    display: none!important;
+}
+
+.developed-container {
+    display: flex;
+    justify-content: center;
+}
+
+.disabled-button {
+    cursor: not-allowed!important;
+    opacity: 0.5;
+}
+
+.discover {
+    background: linear-gradient(90deg, rgb(0, 104, 255) 0, #2affff 100%);
+    border: none;
+    border-radius: 50px;
+    color: #fff;
+    font-family: 'SF Pro Display Semi-Bold';
+    font-size: 12px;
+    line-height: 0.8;
+    margin-bottom: 20px;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.footer-content > p, .footer-content > a {
+    font-size: 15px;
+}
+
+.footer-content > a {
+    color: #fff;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.hiddendiv.common {
+    display: none;
+}
+
+.icon-svg-container img {
+    width: 100px;
+}
+
+.im-eluney {
+    background: linear-gradient(90deg, rgb(0, 104, 255) 0, #2affff 100%);
+    border-radius: 20px;
+    color: #fff;
+    display: inline-block;
+    font-family: 'SF Pro Display Semi-Bold';
+    margin: 30px auto;
+    padding: 10px 20px;
+}
+
+.im-eluney:after {
+    border: 11px solid transparent;
+    border-bottom: 0;
+    border-top-color: #16b6ff;
+    bottom: 0;
+    content: '';
+    height: 0;
+    left: 50%;
+    margin-bottom: -11px;
+    margin-left: -11px;
+    position: absolute;
+    width: 0;
+}
+
+.info-card {
+    border: 2px solid #0068FF;
+    border-radius: 10px;
+    color: #fff;
+    display: block;
+    margin: 10%;
+}
+
+.info-card-end {
+    border: 2px solid #0068FF;
+    border-radius: 10px;
+    color: #fff;
+    margin: auto;
+    width: 25%;
+}
+
+.info-title {
+    font-size: 16px;
+}
+
+.learn-title {
+    color: #fff;
+    font-size: 55px;
+    margin: auto;
+    width: 50%;
+}
+
+.list-links {
+    background-color: #fff;
+    z-index: 2;
+}
+
+.logo-absolute-derecha, .logo-absolute-derecha2 {
+    right: 23%;
+}
+
+.logo-absolute-derecha2, .logo-absolute-izquierda2 {
+    bottom: 2em;
+}
+
+.logo-absolute-derecha2, .logo-absolute-izquierda2, .logo-absolute-derecha, .logo-absolute-izquierda {
+    margin: 0!important;
+    position: absolute!important;
+    width: 1.6em;
+}
+
+.logo-absolute-izquierda, .logo-absolute-derecha {
+    top: 2em;
+}
+
+.logo-absolute-izquierda2, .logo-absolute-izquierda {
+    left: 23%;
+}
+
+.material-icons {
+    -webkit-font-smoothing: antialiased;
+    color: #000;
+    direction: ltr;
+    display: inline-block;
+    font-family: 'Material Icons';
+    font-feature-settings: liga;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: normal;
+    line-height: 1;
+    text-transform: none;
+    white-space: nowrap;
+    word-wrap: normal;
+}
+
+.modal {
+    color: #0c2e50;
+}
+
+.modal .modal-content {
+    padding: 30px;
+}
+
+.modal-buttons {
+    margin: 0;
+    text-align: right;
+}
+
+.modal-info p {
+    text-align: justify;
+}
+
+.modal-loading {
+    animation: spin infinite 2s linear;
+}
+
+.modal-logo {
+    margin-bottom: 5px;
+}
+
+.nav-wraper > .list-inline > .lt000 > .a-lt000 {
+    color: #0c2e50;
+    font-family: 'SF Pro Display Regular';
+    font-size: 14px;
+    font-weight: 600;
+    margin-left: 40px;
+    padding: 0 3px;
+}
+
+.nave-form {
+    bottom: 0;
+    left: -3%;
+    max-height: 13vw;
+}
+
+.nave-header {
+    max-width: 14vw;
+    right: 0;
+}
+
+.nave-header-izquierda {
+    left: 0;
+    margin-left: 10%;
+    width: 4%;
+}
+
+.nave-slider {
+    bottom: -8%;
+    left: 3%;
+    max-height: 8vw;
+}
+
+.nave-uno-cubo {
+    bottom: 0;
+    left: 3%;
+    width: 5%;
+}
+
+.nave-uno-cubo, .planeta-cubo, .nave-slider, .nave-form, .nave-header, .nave-header-izquierda {
+    position: absolute!important;
+}
+
+.planeta-cubo {
+    bottom: 0;
+    max-height: 20vw;
+    right: .1%;
+    top: -16%;
+}
+
+.radio-buttons > .radio-label:hover {
+    cursor: pointer;
+}
+
+.radio-container {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+}
+
+.radio-container > .radio-buttons > .radio-label {
+    background: linear-gradient(90deg, rgba(6, 38, 48, 0.829) 0, #2a4874 100%);
+    border-radius: 20px;
+    color: #fff;
+    font-family: 'SF Pro Display Semi-Bold';
+    margin: 10px;
+    padding: 10px 20px;
+}
+
+.radio-container > .radio-buttons > .radio-label:hover {
+    box-shadow: 2px 1px 1px #00aeff;
+    cursor: pointer;
+    transition: .2s;
+}
+
+.radio-container > li {
+    padding: 0;
+}
+
+.radio-label, .btn-send-email, .seemore-btn, .im-eluney, .discover-button {
+    font-family: 'Spartan Semi-Bold'!important;
+}
+
+.section-title {
+    color: #fff;
+    font-size: 50px;
+    margin: 30px auto 50px;
+    width: 57%;
+}
+
+.seemore-btn {
+    background: linear-gradient(90deg, rgb(0, 104, 255) 0, #2affff 100%);
+    border: none;
+    border-radius: 50px;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-family: 'SF Pro Display Semi-Bold';
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 0.8;
+    margin-top: 10px;
+    padding: 10px 25px;
+}
+
+.sess-text-card {
+    color: #f2f2f2;
+    font-size: 14.8px;
+    margin: auto;
+    width: 85%;
+}
+
+.sess-type {
+    font-family: 'SF Pro Display';
+    font-size: 16px;
+    font-weight: 700;
+    margin: 0;
+}
+
+.small-text {
+    color: rgba(30, 143, 255, 0.74);
+    font-family: 'SF Pro Display';
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 3px;
+}
+
+.subjects-btn {
+    background-color: transparent!important;
+    border: 2px solid #0068FF;
+    border-radius: 20px;
+    color: #fff;
+    font-weight: 700;
+    padding: 8px;
+    width: 80%;
+}
+
+.subjects-btn > small {
+    color: #cccc;
+}
+
+.subjects-btn img {
+    margin-bottom: 10px;
+    width: 25px;
+}
+
+.subjects-btn small {
+    font-size: 9px;
+    font-weight: 700;
+}
+
+.subjects-btn:disabled {
+    background-color: transparent!important;
+    border: none;
+}
+
+.subjects-content > a {
+    font-family: 'Spartan Semi-Bold';
+    font-size: 15px;
+}
+
+.subjects-section {
+    color: #fff;
+    margin-top: 80px;
+}
+
+.text-info-card {
+    color: #f2f2f2;
+    font-size: 14px;
+    margin: 6%;
+}
+
+.wrong-input {
+    -webkit-box-shadow: 0 1px 0 0 #d52157!important;
+    border-bottom: 1px solid #d52157!important;
+    box-shadow: 0 1px 0 0 #d52157!important;
+}
+
+.wrong-textarea {
+    -webkit-box-shadow: 0 1px 0 0 #d52157!important;
+    border: 1px solid #d52157!important;
+    box-shadow: 0 1px 0 0 #d52157!important;
+}
+
+:not(.modal):not(.modal-overlay):not(.stars):not(.list-links):not(header):not(.sidenav):not(.sidenav-overlay):not(.brand-logo):not(.apply-demo):not(.carousel):not(.carousel-item):not(.indicators) {
+    position: relative;
+    z-index: 1;
+}
+
+@font-face {
+    font-family: 'Material Icons';
+    font-style: normal;
+    font-weight: 400;
+    src: url(../assets/fonts/material-icons/normal.woff2) format('woff2');
+}
+
+@font-face {
+    font-family: 'SF Pro Display';
+    src: url(../assets/fonts/sf-pro-display/black.ttf);
+}
+
+@font-face {
+    font-family: 'SF Pro Display Regular';
+    src: url(../assets/fonts/sf-pro-display/regular.ttf);
+}
+
+@font-face {
+    font-family: 'SF Pro Display Semi-Bold';
+    src: url(../assets/fonts/sf-pro-display/semi-bold.ttf);
+}
+
+@font-face {
+    font-family: 'Spartan';
+    src: url(../assets/fonts/spartan/black.ttf);
+}
+
+@font-face {
+    font-family: 'Spartan Regular';
+    src: url(../assets/fonts/spartan/regular.ttf);
+}
+
+@font-face {
+    font-family: 'Spartan Semi-Bold';
+    src: url(../assets/fonts/spartan/semi-bold.ttf);
+}
+
+@keyframes spin {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+}
+
+a, label, strong {
+    font-family: 'SF Pro Display Semi-Bold';
+}
+
+body {
+    background-color: #24303d;
+    text-align: center;
+}
+
+footer {
+    color: #fff;
+    font-family: 'SF Pro Display Semi-Bold';
+    margin-bottom: 40px;
+    margin-top: 80px;
+}
+
+form > .col > .form-control {
+    color: #fff;
+    font-family: 'SF Pro Display Regular';
+    font-size: 14px;
+    text-align: center;
+    width: 65%;
+}
+
+h1, button {
+    font-family: 'Spartan Semi-Bold';
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+input {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+input[type="radio"]:checked + .radio-label {
+    color: rgba(30, 143, 255, 0.74);
+}
+
+p, span, small {
+    font-family: 'SF Pro Display Regular';
+}
+
+textarea {
+    height: 5rem!important;
+    outline: none;
+}
+
+textarea:not(.browser-default):focus:not([readonly]) {
+    -webkit-box-shadow: 0 1px 0 0 #26a69a;
+    border: 1px solid #26a69a;
+    box-shadow: 0 1px 0 0 #26a69a;
+}
+
+ul.sidenav {
+    height: initial;
+    border-radius: 0 0 10px 0;
+    padding: 15px 15px 15px 15px;
+}
+
+ul.sidenav li a {
+    color: #0c2e50;
+}
+
+.full-responsive {
+    height: 75px;
+}
+
+@media (min-width: 993px) {
+    .nav-wraper {
+        display: flex;
+        place-content: space-evenly;
+        place-items: center;
+    }
+    .nav-wraper .brand-logo {
+        position: initial;
+    }
+}
+
+@media (min-width: 483px) and (max-width: 616px) {
+    .radio-container {
+        display: flex;
+    }
+}
+
+@media (min-width: 41px) and (max-width: 632px) {
+    .radio-container {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    .radio-container .radio-buttons {
+        width: 50%;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 699px) {
+    .container-sessions {
+        flex-wrap: wrap;
+    }
+
+    .session-card {
+        width: 45%;
+    }
+}
+
+@media (min-width: 481px) {
+    .card-container:first-child, .card-container:last-child {
+        display: grid;
+    }
+}
+
+@media (max-width: 335px) {
+    .collapsible-container .collapsible-header > p {
+        margin-left: 4px;
+        text-align: inherit;
+    }
+}
+
+@media (max-width: 580px) {
+    .developed-container {
+        flex-direction: column;
+    }
+    .developed-container p {
+        margin: 0;
+    }
+}
+
+@media (max-width: 561px) {
+    .footer-content {
+        display: inline-block;
+        margin-bottom: 10px;
+        margin-top: 15px;
+    }
+}
+
+@media (max-width: 480px) {
+    .jumptarget::before {
+        content:"";
+        display:block;
+        height: 20px;
+        margin: -20px 0 0;
+    }
+
+
+    .collapsible-header > .large {
+        display: none;
+    }
+    .about {
+        margin-top: 25px;
+        padding-bottom: 25px;
+        padding-top: 20px;
+    }
+    .about-text {
+        color: #f2f2f2;
+        margin-left: auto;
+        margin-right: auto;
+        width: 90%;
+    }
+    .benefits-text-small {
+        color: rgba(30, 143, 255, 0.74);
+        font-family: 'SF Pro Display';
+        font-size: 11px;
+        font-weight: 500;
+        letter-spacing: 1px;
+        line-height: 0.8;
+        margin-top: 40px;
+    }
+    .benefits-ulist > li {
+        color: #fff;
+        margin-top: auto;
+        width: 100%;
+    }
+    .info-card {
+        height: auto;
+    }
+    .card {
+        background-color: transparent;
+        box-shadow: none;
+        margin-top: 25px;
+        width: 100%;
+    }
+    .card-container {
+        display: block;
+    }
+    .card-image {
+        margin-left: 15px;
+        margin-top: 65px;
+    }
+    .card-stacked > .card-content {
+        font-size: 13px;
+    }
+    .card-stacked > p {
+        color: #fff;
+        font-family: 'SF Pro Display';
+        font-size: 14px;
+        margin-bottom: 0;
+        margin-right: 50px;
+        margin-top: 10px;
+    }
+    .collapsible {
+        border: none;
+        margin-left: 15px;
+        margin-right: 15px;
+        margin-top: 40px;
+    }
+    .collapsible-header > .grade {
+        font-family: 'SF Pro Display Semi-Bold';
+        font-size: 14px;
+    }
+    .collapsible-header > img {
+        height: 42px;
+        width: 40px;
+    }
+    .collapsible-header > p {
+        margin-left: 15px;
+        text-align: left;
+    }
+    .contact-title {
+        color: #fff;
+        font-size: 38px;
+        margin: 6px;
+        padding: 0;
+    }
+    .container-cards {
+        margin-bottom: 0;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    .container-inputs {
+        color: #fff;
+        display: block;
+        margin: 30px auto auto;
+        width: 80%;
+    }
+    .container-inputs > div, .container-submit > button {
+        margin-left: 20px;
+    }
+    .container-sessions {
+        display: block;
+        margin: 20px 20px 50px;
+    }
+    .container-submit {
+        width: 80%;
+    }
+    .disabled-btn {
+        cursor: not-allowed;
+        opacity: 0.5;
+    }
+    .eluney-img {
+        margin-top: 5px;
+        width: 120px;
+    }
+    .first-title {
+        margin-top: 20px;
+    }
+    .first-title > .text-learning {
+        font-size: 40px;
+        margin-top: 20px;
+        width: auto;
+    }
+    .info-card-end {
+        width: 80%;
+    }
+    .learn-title {
+        color: #fff;
+        font-size: 37px;
+        text-align: center;
+        width: auto;
+    }
+    .list-links {
+        background-color: #fff;
+        position: fixed;
+        top: 0;
+        z-index: 2;
+    }
+    .logo-absolute-derecha2, .logo-absolute-izquierda2, .logo-absolute-derecha, .logo-absolute-izquierda, .nave-uno-cubo, .planeta-cubo, .nave-slider, .nave-form, .nave-header, .nave-header-izquierda, .apply-demo, .radio-container .radio-buttons input, .text-carousel, .container-img > img, .im-eluney {
+        display: none;
+    }
+    .nav-wraper > .list-inline > .lt000 {
+        margin-left: 8px;
+        padding: 0;
+    }
+    .nav-wraper > .list-inline > .lt000 > .a-lt000 {
+        color: #004386;
+        font-size: 12.5px;
+        margin-left: 0;
+        padding: 0 3px;
+    }
+    .radio-buttons {
+        margin: 0 auto;
+        padding: 1em;
+    }
+    .radio-container {
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 30px;
+        place-content: center;
+    }
+    .radio-container > .radio-buttons {
+        margin: 5px;
+        width: 40%;
+    }
+    .radio-container > .radio-buttons > .radio-label {
+        color: #fff;
+        margin: 0;
+        padding: 5px 10px;
+    }
+    .section-learn {
+        margin-bottom: 70px;
+        margin-top: 0;
+        padding: 0;
+        width: 100%;
+    }
+    .section-title {
+        font-size: 35px;
+        margin-bottom: 25px;
+        margin-top: 20px;
+        width: 90%;
+    }
+    .session-card {
+        color: #fff;
+        display: inline-block;
+        height: auto;
+        margin-top: 20px;
+    }
+    .small-text {
+        font-size: 14px;
+        letter-spacing: 1px;
+    }
+    .text-info-card {
+        color: #f2f2f2;
+        font-size: 14px;
+        margin: 20px;
+    }
+    .title-about {
+        color: #f2f2f2;
+        font-size: 30px;
+        margin: 0;
+        padding: 0;
+    }
+    body {
+        padding-top: 70px;
+    }
+    footer {
+        border-top: 1px rgba(255, 255, 255, 0.13) solid;
+        display: inline-block;
+    }
+    html {
+        scroll-behavior: smooth;
+    }
+    nav .brand-logo {
+        position: fixed;
+        width: 30%;
+    }
+}
+
+@media (min-width: 1024px) {
+    .about {
+        margin-top: 100px;
+        padding-bottom: 50px;
+        width: 100%;
+    }
+    .about > img {
+        display: block;
+        margin-left: 90px;
+    }
+    .about-text {
+        color: #f2f2f2;
+        font-size: 14px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 30%;
+    }
+    .apply-demo2 {
+        display: none;
+    }
+    .benefits-text-small {
+        color: rgba(30, 143, 255, 0.74);
+        font-family: 'SF Pro Display';
+        font-size: 11px;
+        font-weight: 500;
+        letter-spacing: 1px;
+        line-height: 0.8;
+        margin-top: 70px;
+    }
+    .benefits-ulist > li {
+        margin-left: 40px;
+        margin-top: 10px;
+        text-align: left;
+        width: 100%;
+    }
+    .benefits-ulist, .container-inputs input.form-control, textarea.materialize-textarea {
+        color: #fff;
+    }
+    .btn-send-email {
+        margin-right: 34em;
+        font-size: 15px;
+        height: 35px;
+        width: 110px;
+    }
+    .card {
+        background-color: transparent;
+        box-shadow: none;
+        margin-left: 30px;
+        margin-top: 0;
+    }
+    .card-image {
+        margin-left: 15px;
+        margin-right: 15px;
+        margin-top: 20px;
+    }
+    .card-stacked > .card-content {
+        font-size: 13px;
+        margin-top: 20px;
+        padding-top: 0;
+    }
+    .card-stacked > p {
+        color: #fff;
+        font-family: 'SF Pro Display';
+        font-size: 14px;
+        margin-bottom: 0;
+        margin-left: 24px;
+        text-align: left;
+    }
+    .col > textarea {
+        width: 100%;
+    }
+    .collapsible {
+        border: none;
+        border-color: transparent;
+        color: transparent;
+        margin-left: 70px;
+        margin-right: 70px;
+        margin-top: 40px;
+    }
+    .collapsible-header {
+        background: transparent;
+        border: 1px solid #ddd;
+        border-bottom-left-radius: 0;
+        border-bottom-right-radius: 0;
+        border-radius: 10px;
+        color: #fff;
+        height: 70px;
+        margin-top: 20px;
+    }
+    .collapsible-header > .grade {
+        font-family: 'SF Pro Display Semi-Bold';
+    }
+    .collapsible-header > .small {
+        color: #78bbe6;
+        font-family: 'SF Pro Display Regular';
+        font-size: 14px;
+        font-weight: 100;
+    }
+    .collapsible-header > .title {
+        font-family: 'SF Pro Display';
+        font-size: 15px;
+    }
+    .collapsible-header > img {
+        height: 40px;
+        margin-left: 20px;
+        width: 40px;
+    }
+    .collapsible-header > p {
+        margin-left: 15px;
+        text-align: left;
+    }
+    .contact-title {
+        color: #fff;
+        font-size: 55px;
+        margin: 0;
+        padding: 0;
+    }
+    .container-card-container {
+        display: grid;
+        grid-gap: 10px;
+        grid-template-columns: repeat(3, 2fr);
+    }
+    .container-cards {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin-left: 80px;
+        margin-top: 110px;
+        width: 65%;
+    }
+    .container-icons-rrss > a {
+        margin-left: 20px;
+    }
+    .container-img {
+        float: center;
+    }
+    .container-inputs {
+        color: #fff;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin: 30px auto 20px;
+        width: 60%;
+    }
+    .container-inputs > div, .container-submit > button {
+        margin-left: 50px;
+    }
+    .discover-button {
+        height: 35px;
+        width: 110px;
+    }
+    .eluney-img {
+        float: right;
+        height: 100%;
+        margin-right: 6%;
+        margin-top: 130px;
+        width: 180px;
+    }
+    .first-title {
+        margin-top: 40px;
+    }
+    .info-title {
+        font-size: 15px;
+        font-weight: 700;
+        margin: 20px 0 0;
+    }
+    .list-links {
+        position: fixed;
+        top: 0;
+    }
+    .list-inline {
+        margin-bottom: auto;
+    }
+    .nav-wraper > .brand-logo > img {
+        height: 64px;
+        width: 128px;
+    }
+    .radio-buttons {
+        margin: 0 auto;
+        padding: 5px 20px;
+    }
+    .radio-container {
+        display: inline-flex;
+    }
+    .section-learn {
+        margin-bottom: 50px;
+        margin-top: 50px;
+        padding: 0;
+    }
+    .session-card {
+        color: #fff;
+        height: auto;
+        margin-left: 50px;
+        margin-top: 20px;
+        width: 20%;
+    }
+    .subjects-btn {
+        cursor: pointer;
+        margin-top: 60px;
+        width: 20%;
+    }
+    .subjects-btn img {
+        margin-bottom: 10px;
+        width: 25px;
+    }
+    .subjects-btn:first-child {
+        margin-top: 83px;
+    }
+    .subjects-btn:focus {
+        background-color: rgba(218, 218, 218, 0.027);
+    }
+    .subjects-content {
+        align-items: center;
+        display: flex;
+        justify-content: center;
+    }
+    .text-carousel {
+        float: right;
+        font-family: 'SF Pro Display Semi-Bold';
+        font-size: 16px;
+        height: 100%;
+        margin-right: 200px;
+        margin-top: 125px;
+        text-align: left;
+        width: 60%;
+    }
+    .title-about {
+        color: #f2f2f2;
+        font-size: 55px;
+        margin: 0;
+        padding: 0;
+    }
+    a.a-lt000.hvr-float.hvr-underline-from-center:hover {
+        background: transparent;
+    }
+    body {
+        padding-top: 70px;
+    }
+    form > .col > .form-control {
+        color: #fff;
+        font-family: 'SF Pro Display Regular';
+        font-size: 14px;
+        text-align: center;
+        width: 65%;
+    }
+    html {
+        scroll-behavior: smooth;
+    }
+    textarea {
+        height: 5rem!important;
+    }
+    ul:not(.browser-default)>li {
+        list-style-type: disc!important;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 1024px) {
+    .list-links {
+        position: fixed !important;
+        top: 0;
+    }
+
+    .header-module {
+        margin-bottom: 104px;
+    }
+
+    .about {
+        margin-top: 50px;
+        padding: 20px;
+    }
+    .about > img {
+        display: block;
+        margin-left: 50px;
+    }
+    .about-text {
+        width: 60%;
+    }
+    .card {
+        background-color: transparent;
+        box-shadow: none;
+        margin-left: auto;
+        margin-right: auto;
+        height: min-content;
+        padding: 10px;
+        width: 95%;
+    }
+    .card-image {
+        margin-top: 20px;
+    }
+    .card-stacked > .card-content {
+        font-size: 13px;
+        width: 100%;
+    }
+    .card-stacked > p {
+        color: #fff;
+        font-family: 'SF Pro Display';
+        font-size: 14px;
+        margin-bottom: 0;
+        margin-left: 23px;
+        text-align: left;
+    }
+    .collapsible {
+        border: none;
+        border-color: transparent;
+        color: #fff;
+        margin: auto;
+        text-align: left;
+        width: 95%;
+    }
+    .collapsible-header > img {
+        width: 50px;
+    }
+
+    .collapsible-header > .small {
+        font-size: 14px;
+    }
+    .collapsible-header > p {
+        margin-left: 15px;
+        text-align: left;
+    }
+    .contact-title {
+        color: #fff;
+        font-size: 38px;
+        margin: 6px;
+        padding: 0;
+    }
+    .container-card-container {
+        display: grid;
+        grid-gap: 10px;
+        grid-template-columns: repeat(3, 2fr);
+    }
+    .container-cards {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin-bottom: 50px;
+    }
+    .container-inputs > div, .container-submit > button {
+        margin-left: 20px;
+    }
+    .container-sessions {
+        color: #fff;
+        margin-bottom: 60px;
+        margin-top: 50px;
+        padding: 1em;
+        width: 95%;
+    }
+    .icon-svg-container > img {
+        width: 50%;
+    }
+    .logo-container {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 2.5em;
+        width: 50%;
+    }
+    .nav-wraper > .brand-logo > img {
+        height: 64px;
+        width: 128px;
+    }
+    .radio-container {
+        margin-top: 0;
+    }
+    .radio-container > .radio-buttons {
+        display: inline-block;
+        padding-left: 0;
+        padding-right: 15px;
+    }
+    .section-learn > .eluney-img {
+        margin-bottom: 25px;
+        width: 20%;
+    }
+    .section-title {
+        width: 70%;
+    }
+    .session-card {
+        justify-content: center;
+        margin: 10px;
+    }
+    .subjects-btn {
+        margin-bottom: 50px;
+        width: 40%;
+    }
+    .subjects-section {
+        margin-top: 80px;
+    }
+    .title-about {
+        color: #f2f2f2;
+        font-size: 30px;
+        margin: 0;
+        padding: 0;
+    }
+}
